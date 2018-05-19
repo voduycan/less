@@ -1,0 +1,79 @@
+@my-color: rgb(37, 182, 175);
+#top{
+    width: 100%;
+    height: 75px;
+    background: white;
+    padding-top: 12px;
+    margin: 0;
+    .logo{
+        padding-left: 100px;
+    }
+    .search{
+        padding-top: 9px;
+        input{
+            border-radius: 0;
+            border-right: none;
+            webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075); 
+            box-shadow: inset 0 0px 0px rgba(0,0,0,.075); 
+        }
+        button{
+            border-radius: 0;
+            border-left: none;
+        }
+    }
+    .pay{
+        padding-left: 200px;
+        font-size: 25px;
+        color: rgb(173, 171, 171);
+        font-weight: 800;
+        
+    }
+}
+#menu{
+    height: 35px;
+    background: @my-color;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 150px;
+    .item{
+        border-right: 1px solid white;
+        padding: 0 10px;
+        color: white;
+        font-weight: 600;
+    }
+    .last{
+        border-right: none;
+    }
+}
+#slide{
+    width: 100%;
+    height: 350px;
+    #img1{
+        
+        box-shadow: 0px 0px 2px 2px rgb(25, 138, 132) inset;
+    }
+    .carousel-caption{
+        text-align: left;
+        a{
+            background: rgb(32, 153, 147);
+            border: 2px solid white;
+            border-radius: 4px;
+        }
+    }
+    
+}
+#content{
+    width: 100%;
+    height: 165px;
+    background: yellow;
+}
+#footer{
+    width: 100%;
+    height: 37px;
+    background: @my-color;
+    color: white;
+    padding-top: 12px;
+    padding-left: 100px;
+    font-weight: 600;
+    font-size: 20px;
+}
